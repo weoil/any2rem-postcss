@@ -1,28 +1,31 @@
 {
-  "name": "postcss-px2rem-exclude",
-  "version": "0.0.6",
-  "description": "Based on postcss-px2rem added the exclude folder options.",
+  "name": "postcss-any2rem",
+  "version": "0.0.3",
+  "description": "基于postcss-px2rem-exclude,在基础上继承了排除某些文件夹的功能,添加了根据特定值进行替换的能力",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "css": "~2.2.0",
+    "extend": "~3.0.0",
     "postcss": "^5.0.0",
     "px2rem": "~0.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saionjisekai/px2rem-postcss.git"
+    "url": "git+https://github.com/weoil/any2rem-postcss.git"
   },
   "keywords": [
     "postcss",
     "px2rem",
-    "exclude"
+    "exclude",
+    "any2rem"
   ],
-  "author": "sekai",
+  "author": "weoil",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saionjisekai/px2rem-postcss/issues"
+    "url": "https://github.com/weoil/any2rem-postcss/issues"
   },
-  "homepage": "https://github.com/saionjisekai/px2rem-postcss#readme"
+  "homepage": "https://github.com/weoil/any2rem-postcss"
 }

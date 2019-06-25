@@ -1,20 +1,18 @@
 # postcss-px2rem-exclude
 
-Based on [postcss-px2rem](https://www.npmjs.com/package/postcss-px2rem) added the exclude folder option.
-
-[![Downloads][downloads-image]][downloads-url]
-
-[downloads-image]: https://img.shields.io/npm/dm/postcss-px2rem-exclude.svg?style=flat-square
-[downloads-url]: https://www.npmjs.com/package/postcss-px2rem-exclude
+基于 [postcss-px2rem-exclude](https://github.com/saionjisekai/px2rem-postcss),在基础上继承了排除某些文件夹的功能,添加了根据关键字进行替换的能力
 
 ## Useage
-
+```
+npm i postcss-any2rem -D
+```
 ### .postcssrc.js
 ```javascript
 module.exports = {
   'plugins': {
-    'postcss-px2rem-exclude': {
+    'postcss-any2rem': {
       remUnit: 75,
+      any: 'rpx', // rpx -> rem
       exclude: /node_modules|folder_name/i
     }
   }
