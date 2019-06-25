@@ -1,4 +1,4 @@
-# postcss-px2rem-exclude
+# postcss-any2rem
 
 基于 [postcss-px2rem-exclude](https://github.com/saionjisekai/px2rem-postcss),在基础上继承了排除某些文件夹的功能,添加了根据关键字进行替换的能力
 
